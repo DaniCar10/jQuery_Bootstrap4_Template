@@ -22,59 +22,59 @@ after: function () {}
    EFFECTS ON SCROLL
    ========================================================================== */
 
-
-
-   window.sr = ScrollReveal();
-     sr.reveal('.show-down', {
-       duration: 500,
-       origin: 'top',
-       distance: '50px'
-     });
-     sr.reveal('.show-up', {
-       duration: 500,
-       origin: 'bottom',
-       distance: '50px'
-     });
-     sr.reveal('.show-right', {
-       duration: 500,
-       origin: 'right',
-       distance: '300px'
-     });
-
-     sr.reveal('.show-advance-1',   { delay: 100  });
-     sr.reveal('.show-advance-2',   { delay: 200  });
-     sr.reveal('.show-advance-3',   { delay: 300  });
-     sr.reveal('.show-advance-4',   { delay: 100  });
-     sr.reveal('.show-advance-5',   { delay: 200  });
-     sr.reveal('.show-advance-6',   { delay: 300  });
-
-     sr.reveal('.show-left', {
-       duration: 500,
-       origin: 'left',
-       distance: '300px'
-     });
-     sr.reveal('.opacity', {
-       duration: 500,
-       opacity: 0,
-     });
-     sr.reveal('.opacity-2', {
-       duration: 500,
-       opacity: 0,
-     });
-     sr.reveal('.rotate', {
-       duration: 500,
-       rotate: { x: 10, y: 10, z: 10 },
-     });
-     sr.reveal('.opacity-3', {
-       duration: 500,
-       opacity: 0,
-     });
-     sr.reveal('.show-btn', {
-       duration: 500,
-       delay: 1000,
-       origin: 'bottom',
-       distance: '50px'
-     });
+   //
+   //
+   // window.sr = ScrollReveal();
+   //   sr.reveal('.show-down', {
+   //     duration: 500,
+   //     origin: 'top',
+   //     distance: '50px'
+   //   });
+   //   sr.reveal('.show-up', {
+   //     duration: 500,
+   //     origin: 'bottom',
+   //     distance: '50px'
+   //   });
+   //   sr.reveal('.show-right', {
+   //     duration: 500,
+   //     origin: 'right',
+   //     distance: '300px'
+   //   });
+   //
+   //   sr.reveal('.show-advance-1',   { delay: 100  });
+   //   sr.reveal('.show-advance-2',   { delay: 200  });
+   //   sr.reveal('.show-advance-3',   { delay: 300  });
+   //   sr.reveal('.show-advance-4',   { delay: 100  });
+   //   sr.reveal('.show-advance-5',   { delay: 200  });
+   //   sr.reveal('.show-advance-6',   { delay: 300  });
+   //
+   //   sr.reveal('.show-left', {
+   //     duration: 1000,
+   //     origin: 'left',
+   //     distance: '300px'
+   //   });
+   //   sr.reveal('.opacity', {
+   //     duration: 1000,
+   //     opacity: 0,
+   //   });
+   //   sr.reveal('.opacity-2', {
+   //     duration: 1000,
+   //     opacity: 0,
+   //   });
+   //   sr.reveal('.rotate', {
+   //     duration: 1000,
+   //     rotate: { x: 10, y: 10, z: 10 },
+   //   });
+   //   sr.reveal('.opacity-3', {
+   //     duration: 1000,
+   //     opacity: 0,
+   //   });
+   //   sr.reveal('.show-btn', {
+   //     duration: 1000,
+   //     delay: 1000,
+   //     origin: 'bottom',
+   //     distance: '50px'
+   //   });
 
      /**
          * Want to disable delay on mobile devices? (uncomment the line below)
