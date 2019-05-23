@@ -24,17 +24,17 @@ after: function () {}
 
    window.sr = ScrollReveal();
      sr.reveal('.show-down', {
-       duration: 2000,
+       duration: 1000,
        origin: 'top',
        distance: '50px'
      });
      sr.reveal('.show-up', {
-       duration: 3000,
+       duration: 1000,
        origin: 'bottom',
        distance: '50px'
      });
      sr.reveal('.show-right', {
-       duration: 2000,
+       duration: 1000,
        origin: 'right',
        distance: '300px'
      });
@@ -47,7 +47,7 @@ after: function () {}
      sr.reveal('.show-advance-6',   { delay: 300  });
 
      sr.reveal('.show-left', {
-       duration: 3000,
+       duration: 1000,
        origin: 'left',
        distance: '300px'
      });
@@ -56,15 +56,15 @@ after: function () {}
        opacity: 0,
      });
      sr.reveal('.opacity-2', {
-       duration: 3000,
+       duration: 1000,
        opacity: 0,
      });
      sr.reveal('.rotate', {
-       duration: 3000,
+       duration: 1000,
        rotate: { x: 10, y: 10, z: 10 },
      });
      sr.reveal('.opacity-3', {
-       duration: 2000,
+       duration: 1000,
        opacity: 0,
      });
      sr.reveal('.show-btn', {
