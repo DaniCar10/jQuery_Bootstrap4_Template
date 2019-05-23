@@ -22,6 +22,8 @@ after: function () {}
    EFFECTS ON SCROLL
    ========================================================================== */
 
+
+
    window.sr = ScrollReveal();
      sr.reveal('.show-down', {
        duration: 1000,
@@ -73,6 +75,11 @@ after: function () {}
        origin: 'bottom',
        distance: '50px'
      });
+
+     /**
+         * Want to disable delay on mobile devices? (uncomment the line below)
+         */
+        if ( self.isMobile() && self.config.mobile ) elem.config.wait = 0
 
 /* ==========================================================================
   MASK
